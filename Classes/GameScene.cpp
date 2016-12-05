@@ -50,8 +50,8 @@ bool GameScene::init()
 
 	if(debugMode)
 	{
-		GameManager::getInstance()->setOpponentShipTypeWithString("red");
-		this->schedule(schedule_selector(GameScene::debug_missleSpawnScheduler), 2);
+        GameManager::getInstance()->setOpponentShipTypeWithString("red");
+        this->schedule(schedule_selector(GameScene::debug_missleSpawnScheduler), 2);
 	}
 
     this->setKeypadEnabled(true);
