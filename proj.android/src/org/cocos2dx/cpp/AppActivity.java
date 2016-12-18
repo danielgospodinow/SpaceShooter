@@ -43,6 +43,9 @@ import android.view.Display;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
+import android.os.PowerManager;
+import android.os.PowerManager.WakeLock;
+import android.content.Context;
 
 public class AppActivity extends SonarFrameworkActivity
 //Cocos2dxActivity 
@@ -50,16 +53,22 @@ public class AppActivity extends SonarFrameworkActivity
 	public static AppActivity currentActivity;
 	private static Toast toastObject = null;
 	private static DisplayMetrics dm;
-	private static Cocos2dxGLSurfaceView glSurfaceView;
+        private static Cocos2dxGLSurfaceView glSurfaceView;
 	
 	protected void onCreate(Bundle savedInstanceState) 
 	{
 		super.onCreate(savedInstanceState);
 		
 		dm = new DisplayMetrics();
-		getWindowManager().getDefaultDisplay().getMetrics(dm);
+                getWindowManager().getDefaultDisplay().getMetrics(dm);
+
 		currentActivity = this;
 	}
+
+        public void onDestroy()
+        {
+            super.onDestroy();
+         }
 	
 	public static boolean isNetworkConnected_JAVA()
 	{
