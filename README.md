@@ -7,8 +7,7 @@ Android devices. It's played via LAN by two people. Every person has his own "sh
   <img src = "http://i.imgur.com/nrXV6yF.png"/>
 </p>
 
-###### A picture illustrating the actual gameplay (because an actual screenshot of 
-a multiplayer game of this sort is impossible):
+###### A picture illustrating the actual gameplay (because an actual screenshot of a multiplayer game of this sort is impossible):
 <p align ="center">
   <img src="http://i.imgur.com/xfEUVa0.png" width = "400" height = "400">
 </p>
