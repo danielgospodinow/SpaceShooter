@@ -12,7 +12,8 @@
 - Gameplay mechanics are based on device shaking (for movement) and screen touching (for shooting). 
 - Each player's ship has 6 lives. 
 - Players can long press the screen to stack up a big missile or just shoot a little missile which does 1 damage, whereas the stacked missile does damage based on the level of stacking - this is a good way to one-shot an opponent. 
-- The little rectangles around each ship indicate current lives left, also they indicate the max stacking level for the big missile. Upon dying, the game restarts for another round.
+- The little rectangles around each ship indicate current lives left, also they indicate the max stacking level for the big missile. 
+- Upon dying, the game restarts for another round.
 <p align="center">
   <img src = "http://i.imgur.com/nrXV6yF.png"/>
 </p>
