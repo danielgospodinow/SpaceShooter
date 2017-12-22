@@ -26,6 +26,12 @@
 ##
 
 ###### Gameplay footage:
+- Screenshots:
+<p align="center">
+  <img src = "https://i.imgur.com/xnSXPtH.png"/>
+</p>
+
+- Videos:
 //TODO:
 
 ##
