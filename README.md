@@ -20,7 +20,7 @@
 
 ##
 
-Future plans:
+###### Future plans:
 - [ ] Developing a way to play the game through Bluetooth (Standart or Smart)
 
 ##
