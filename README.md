@@ -6,7 +6,7 @@
 ###### Brief description:
 - **Spaceshooter** represents a multiplayer game for mobile devices. 
 - It's played via a Local Area Connection (e.g being connected to the same Wi-Fi network) by two people. 
-- Every player has his own "ship" and field, also each player's playground field is contained in his own device's screen. 
+- Every player has his own ship and field, also each player's playground field is contained in his own device's screen. 
 - **The main idea of the game is that the two players have to join their phones together so they can form the whole playground.** 
 - Every player has the option to create or to join a certain server on the network, so basically two players can connect and play with each other by creating and connecting to a server (the first one has to create a server and the second one has to connect to him). 
 - Gameplay mechanics are based on device shaking (for movement) and screen touching (for shooting). 
